@@ -1,0 +1,98 @@
+# ===================================
+# DEPENDENCIES
+# ===================================
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ===================================
+# ENVIRONMENT & CREDENTIALS
+# ===================================
+.env
+.env.local
+.env.*.local
+google-credentials.json
+
+# ===================================
+# WPPCONNECT SESSION DATA
+# ===================================
+tokens/
+*.data.json
+.wwebjs_auth/
+.wwebjs_cache/
+
+# ===================================
+# LOGS
+# ===================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# ===================================
+# OS FILES
+# ===================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ===================================
+# IDE & EDITORS
+# ===================================
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.sublime-project
+.sublime-workspace
+
+# ===================================
+# BUILD & DIST
+# ===================================
+dist/
+build/
+out/
+.next/
+
+# ===================================
+# TEMPORARY FILES
+# ===================================
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+*.cache
+
+# ===================================
+# MONGODB DATA (se rodar local)
+# ===================================
+data/
+mongo-data/
+
+# ===================================
+# TESTING
+# ===================================
+coverage/
+.nyc_output/
+*.lcov
+
+# ===================================
+# MISC
+# ===================================
+.npm
+.eslintcache
+.node_repl_history
+.yarn-integrity
